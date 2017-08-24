@@ -4,7 +4,7 @@
 
 	<groupId>com.greglturnquist</groupId>
 	<artifactId>react-and-spring-data-rest</artifactId>
-	<version>0.0.23</version>
+	<version>0.0.24-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>React.js and Spring Data REST - Root</name>
@@ -27,7 +27,7 @@
 <!--						<connection>scm:git:git@bitbucket.org:tumilom/hello-world-react.git</connection>
 						<developerConnection>scm:git:git@bitbucket.org:tumilom/hello-world-react.git</developerConnection>
     -->                    <url>https://tumilom@github.com/tumilom/hello-world-react.git</url>
-                <tag>react-and-spring-data-rest-0.0.23</tag>
+                <tag>react-and-spring-data-rest-0.0.22</tag>
 
 <!--			
                        <connection>scm:git:ssh://git@bitbucket.org/tumilom/hello-world-react.git</connection>
