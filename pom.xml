@@ -39,6 +39,44 @@
         <developerConnection>scm:git:https://tumilom:Jeden123@github.com/tumilom/hello-world-react.git</developerConnection>
             
   </scm>          
+   <repositories>
+        <repository>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+            <id>acc-internal-public</id>
+            <name>FINEOS ACC Internal NEXUS Public Repository</name>
+            <url>http://kdclcs0001:8082/nexus/content/groups/public</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+    
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>EOS ACC Internal Releases Nexus Repository</name>
+            <url>http://kdclcs0001:8082/nexus/content/repositories/releases</url>
+            <layout>default</layout>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>EOS ACC Internal Snapshots Nexus Repository</name>
+            <url>http://kdclcs0001:8082/nexus/content/repositories/snapshots</url>
+            <layout>default</layout>
+        </snapshotRepository>
+        <site>
+            <id>index.html</id>
+            <url>file://C:/Fineos/site</url>
+        </site>
+    </distributionManagement>
+  
           <build>
   <plugins>
     <plugin>
