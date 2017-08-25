@@ -11,7 +11,7 @@
 
 	<groupId>com.greglturnquist</groupId>
 	<artifactId>react-and-spring-data-rest-security</artifactId>
-	<version>0.0.25</version>
+	<version>0.0.26-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>React.js and Spring Data REST - Security</name>
@@ -111,6 +111,6 @@
 -->
 
   <scm>
-    <tag>react-and-spring-data-rest-0.0.25</tag>
+    <tag>react-and-spring-data-rest-0.0.22</tag>
   </scm>
 </project>
