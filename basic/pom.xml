@@ -54,7 +54,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+<!--
 	<build>
 		<plugins>
 			<plugin>
@@ -100,7 +100,7 @@
 		</plugins>
 	</build>
 
-
+-->
   <scm>
     <tag>react-and-spring-data-rest-0.0.22</tag>
   </scm>
