@@ -4,7 +4,7 @@
 
 	<groupId>com.greglturnquist</groupId>
 	<artifactId>react-and-spring-data-rest-conditional</artifactId>
-	<version>0.0.25-SNAPSHOT</version>
+	<version>0.0.25</version>
 	<packaging>jar</packaging>
 
 	<name>React.js and Spring Data REST - Conditional</name>
@@ -102,6 +102,6 @@
 -->
 
   <scm>
-    <tag>react-and-spring-data-rest-0.0.22</tag>
+    <tag>react-and-spring-data-rest-0.0.25</tag>
   </scm>
 </project>
